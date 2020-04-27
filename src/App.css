@@ -28,6 +28,38 @@
   color: #61dafb;
 }
 
+.Header-wrapper {
+  display: flex;
+}
+
+.Header-link {
+  text-decoration: none;
+}
+
+.Header-logo {
+  width: 48px;
+  display: block;
+  margin-top: 12px;
+  margin-left: 24px;
+}
+
+.Header-logo:hover {
+  width: 64px;
+}
+
+.Header-text {
+  display: none;
+  color: deeppink;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: 12px;
+  margin-top: 48px;
+}
+
+.Header-logo:hover + .Header-text {
+  display: block;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
